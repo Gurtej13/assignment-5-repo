@@ -1,0 +1,9 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="300" height="300" fill="none" stroke="black"/>
+  <circle id="circle" cx="80" cy="50" r="10" fill="red">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <mpath xlink:href="#path"/>
+    </animateMotion>
+  </circle>
+  <path id="path" d="M80,50 L350,50 L350,320 L80,320 L80,50" fill="none"/>
+</svg>
