@@ -6,7 +6,6 @@ Table of Contents
     Introduction
     File Structure
     How to Run
-    License
 
 Introduction
 
@@ -31,7 +30,4 @@ To run this webpage locally, follow these steps:
     Open index.html in a web browser.
 
 Alternatively, you can host the files on a web server to access the webpage online.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
