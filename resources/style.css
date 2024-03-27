@@ -1,0 +1,80 @@
+/* Resetting default margins and paddings */
+body, h1, h2, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Styling navigation menu */
+.menu {
+    background-color: #8B4513; /* Brown */
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    color: #FFF; /* White */
+    text-decoration: none;
+}
+
+/* Styling headings */
+h1, h2 {
+    margin: 20px 0;
+    color: #8B4513; /* Brown */
+}
+
+/* Styling paragraph */
+p {
+    color: #8B4513; /* Brown */
+}
+
+/* Styling table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #D2B48C; /* Beige */
+    padding: 8px;
+}
+
+th {
+    background-color: #FFE4C4; /* Beige */
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .menu ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .menu ul li a {
+        display: block;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
